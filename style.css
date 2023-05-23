@@ -1,35 +1,68 @@
-*, html {
-	max-height: 100vh;
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
+* {
+margin: 0;
+padding: 0;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	background-image: url("frog.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+background: #55505cff;
 }
 
-.rectangle {
-	background: rgba(0, 107, 109, 0.7);
-	margin: 10px;
-	padding: 10px;
+#maindiv {
+background: #d6f8d6ff;
+border: solid;
+border-color: #7fc6a4ff;
+border-radius: 10px;
+margin-left: 10%;
+margin-right: 10%;
+padding: 10px;
 }
 
-#header1 {
-	font-size: 20pt;
-	text-align: center;
+h2 {
+text-align: center;
 }
 
-#header2 {
-	text-align: center;
+.parcent {
+background: #7fc6a4ff;
+text-align: center;
+border: solid;
+border-color: #5d737eff;
 }
 
-#links {
-	text-align: center;
-	line-height: 2;
+#redtext {
+color: red;
+}
+
+.globeicon {
+width: 50px;
+height: 50px;
+vertical-align: middle;
+margin: 10px;
+}
+
+.regicon {
+width: 20px;
+height: 20px;
+vertical-align: middle;
+margin: 5px;
+}
+
+ul {
+background: #faf33eff;
+border-radius: 20px;
+display: inline-block;
+padding: 10px;
+margin: 10px;
+line-height: 200%;
+text-align: left;
+}
+
+#footer {
+}
+
+.infotext {
+background: #faf33eff;
+margin-left: 25%;
+margin-right: 25%;
+line-height: 150%;
+text-align: left;
 }
