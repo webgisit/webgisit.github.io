@@ -1,0 +1,146 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 1em;
+}
+
+body {
+background-image: url("images/leafpat.png");
+height: 100vh;
+}
+
+a {
+color: black;
+}
+
+header {
+background: rgba(6, 167, 125, 0.9);
+padding: 10px;
+}
+
+main {
+background: rgba(241, 162, 8, 1);
+margin-left: 5vw;
+margin-right: 5vw;
+margin: 10px;
+padding: 10px;
+border: solid;
+border-radius: 30px;
+line-height: 1.5;
+}
+
+footer {
+background: rgba(6, 167, 125, 0.9);
+position: sticky;
+top: 100%;
+padding: 5px;
+}
+
+ul {
+margin: 10px;
+padding: 10px;
+display: inline-block;
+}
+
+li {
+margin: 10px;
+}
+
+.maindiv {
+height: 100%;
+position: relative;
+}
+
+.homediv {
+background: rgba(6, 167, 125, 0.9);
+border: solid;
+border-color: rgba(5, 47, 95, 1);
+border-radius: 10px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+text-align: center;
+}
+
+.imageicon {
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin: 10px;
+padding: 10px;
+}
+
+.imageiconsmall {
+width: 25px;
+height: 25px;
+vertical-align: middle;
+margin: 10px;
+padding: 3px;
+}
+
+.photo {
+width: 50%;
+height: auto;
+margin: 10px;
+}
+
+.heading {
+font-size: 2em;
+}
+
+.highlight {
+background: rgba(213, 198, 122, 1);
+margin: 1px;
+padding: 8px;
+border: solid;
+border-radius: 5px;
+}
+
+.highlightnav {
+background: rgba(0, 83, 119, 0.6);
+display: inline-block;
+margin: 5px;
+padding: 2px;
+border: solid;
+border-radius: 5px;
+}
+
+.navbar {
+background: rgba(6, 167, 125, 1);
+border: solid;
+border-radius: 30px;
+margin: 10px;
+}
+
+.iconbg {
+background: rgba(213, 198, 122, 1);
+border-radius: 50px;
+}
+
+.colorcontainer {
+text-align: center;
+border: solid;
+}
+
+.color1 {
+background: rgba(5, 47, 95, 1);
+}
+
+.color2 {
+background: rgba(0, 83, 119, 1);
+}
+
+.color3 {
+background: rgba(6, 167, 125, 1);
+}
+
+.color4 {
+background: rgba(213, 198, 122, 1);
+}
+
+.color5 {
+background: rgba(241, 162, 8, 1);
+}
